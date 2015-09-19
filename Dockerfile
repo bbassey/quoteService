@@ -5,7 +5,7 @@ RUN      apt-get install -y nodejs
 RUN      apt-get install -y npm
 
 # App
-ADD . /web
+
 ADD ./web/server.js /web/server.js
 
 
