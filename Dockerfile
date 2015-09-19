@@ -9,4 +9,4 @@ ADD . /web
 
 
 EXPOSE  8080
-CMD ["node", "/web/server.js"]
+CMD ["nodejs", "/web/server.js"]
